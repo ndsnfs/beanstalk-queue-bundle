@@ -1,0 +1,11 @@
+services:
+
+  beanstalk.consumer_listen_command:
+    class: App\Bundle\BeanstalkBundle\Command\ConsumerCommand
+    arguments:
+      $container: '@service_container'
+      $eventDispatcher: '@debug.event_dispatcher'
+      $queue: '@beanstalk.queue'
+      $logger: '@logger'
+    tags:
+      - { name: console.command }

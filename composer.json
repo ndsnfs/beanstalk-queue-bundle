@@ -1,0 +1,14 @@
+{
+  "name": "beanstalk/queue-bundle",
+  "type": "symfony-bundle",
+  "description": "queue by beanstalk",
+  "keywords": ["beanstalk", "symfony", "queue"],
+  "license": "MIT",
+  "version": "1.0.0",
+  "authors": [
+    {
+      "name": "Denis Nesteryuk",
+      "email": "n_ds@mail.ru"
+    }
+  ]
+}

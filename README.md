@@ -1,4 +1,16 @@
 ## Установка
+Прежде чем устанавливать добавь в composer.json:
+```json
+{
+    ...
+    
+    "repositories":[
+        {
+            "type": "vcs",
+            "url": "https://github.com/ndsnfs/beanstalk-queue-bundle"
+        }
+    ]
+```
 
 ```
 composer require symfony/beanstalk-bundle 
@@ -40,6 +52,7 @@ beanstalk:
 Далее необходимо создать объекты, наследующие следующие абстрактные классы:
 1. Symfony\BeanstalkBundle\AConsumer;
 2. Symfony\BeanstalkBundle\APayload.
+
 Пример нагрузки:
 ```php
 <?php
@@ -55,6 +68,7 @@ class MailTemplatingPayload extends APayload
 	public $template;
 }
 ```
+
 Пример консюмера:
 ```php
 <?php

@@ -1,14 +1,26 @@
 {
-  "name": "beanstalk/queue-bundle",
+  "name": "symfony/beanstalk-bundle",
   "type": "symfony-bundle",
   "description": "queue by beanstalk",
   "keywords": ["beanstalk", "symfony", "queue"],
   "license": "MIT",
-  "version": "1.0.0",
   "authors": [
     {
       "name": "Denis Nesteryuk",
       "email": "n_ds@mail.ru"
     }
-  ]
+  ],
+  "require": {
+    "pda/pheanstalk": "^4.0",
+    "symfony/console": "^4.0",
+    "symfony/event-dispatcher": "^4.0",
+    "symfony/dependency-injection": "^4.0",
+    "symfony/config": "^4.0",
+    "symfony/yaml": "^4.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Symfony\\BeanstalkBundle\\": ""
+    }
+  }
 }

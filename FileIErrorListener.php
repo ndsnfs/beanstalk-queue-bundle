@@ -1,5 +1,5 @@
 <?php
-namespace App\Bundle\BeanstalkBundle;
+namespace Symfony\BeanstalkBundle;
 
 use Pheanstalk\Job;
 

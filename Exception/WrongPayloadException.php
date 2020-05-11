@@ -1,4 +1,4 @@
 <?php
-namespace App\Bundle\BeanstalkBundle\Exception;
+namespace Symfony\BeanstalkBundle\Exception;
 
 class WrongPayloadException extends \Exception {}

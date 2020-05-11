@@ -1,5 +1,5 @@
 <?php
-namespace App\Bundle\BeanstalkBundle\DependencyInjection;
+namespace Symfony\BeanstalkBundle\DependencyInjection;
 
 
 use Symfony\Component\Config\Definition\Builder\TreeBuilder;

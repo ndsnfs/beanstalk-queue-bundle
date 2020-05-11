@@ -1,4 +1,4 @@
 <?php
-namespace App\Bundle\BeanstalkBundle\DependencyInjection\Exception;
+namespace Symfony\BeanstalkBundle\DependencyInjection\Exception;
 
 class DefinitionNotConfiguredException extends \Exception {}

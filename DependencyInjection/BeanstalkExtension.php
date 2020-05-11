@@ -1,10 +1,10 @@
 <?php
-namespace App\Bundle\BeanstalkBundle\DependencyInjection;
+namespace Symfony\BeanstalkBundle\DependencyInjection;
 
-use App\Bundle\BeanstalkBundle\AProducer;
-use App\Bundle\BeanstalkBundle\DependencyInjection\Exception\DefinitionNotConfiguredException;
-use App\Bundle\BeanstalkBundle\Producer;
-use App\Bundle\BeanstalkBundle\QueueFactory;
+use Symfony\BeanstalkBundle\AProducer;
+use Symfony\BeanstalkBundle\DependencyInjection\Exception\DefinitionNotConfiguredException;
+use Symfony\BeanstalkBundle\Producer;
+use Symfony\BeanstalkBundle\QueueFactory;
 use Pheanstalk\Pheanstalk;
 use Symfony\Component\Config\FileLocator;
 use Symfony\Component\DependencyInjection\ContainerBuilder;

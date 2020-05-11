@@ -1,10 +1,10 @@
 <?php
-namespace App\Bundle\BeanstalkBundle\Command;
+namespace Symfony\BeanstalkBundle\Command;
 
-use App\Bundle\BeanstalkBundle\AConsumer;
-use App\Bundle\BeanstalkBundle\Events\JobNotDoneEvent;
-use App\Bundle\BeanstalkBundle\IConfigurableConsumer;
-use App\Bundle\BeanstalkBundle\IErrorListener;
+use Symfony\BeanstalkBundle\AConsumer;
+use Symfony\BeanstalkBundle\Events\JobNotDoneEvent;
+use Symfony\BeanstalkBundle\IConfigurableConsumer;
+use Symfony\BeanstalkBundle\IErrorListener;
 use Pheanstalk\Contract\PheanstalkInterface;
 use Psr\Container\ContainerInterface;
 use Psr\Log\LoggerInterface;

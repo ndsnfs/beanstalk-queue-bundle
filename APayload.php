@@ -1,4 +1,4 @@
 <?php
-namespace App\Bundle\BeanstalkBundle;
+namespace Symfony\BeanstalkBundle;
 
 abstract class APayload {}

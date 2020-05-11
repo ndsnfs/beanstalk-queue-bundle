@@ -1,8 +1,8 @@
 <?php
-namespace App\Bundle\BeanstalkBundle;
+namespace Symfony\BeanstalkBundle;
 
-use App\Bundle\BeanstalkBundle\Events\JobNotDoneEvent;
-use App\Bundle\BeanstalkBundle\Exception\WrongPayloadException;
+use Symfony\BeanstalkBundle\Events\JobNotDoneEvent;
+use Symfony\BeanstalkBundle\Exception\WrongPayloadException;
 use Pheanstalk\Contract\PheanstalkInterface;
 use Pheanstalk\Job;
 use Psr\Log\LoggerInterface;

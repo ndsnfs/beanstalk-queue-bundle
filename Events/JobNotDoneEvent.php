@@ -1,5 +1,5 @@
 <?php
-namespace App\Bundle\BeanstalkBundle\Events;
+namespace Symfony\BeanstalkBundle\Events;
 
 use Pheanstalk\Job;
 use Symfony\Contracts\EventDispatcher\Event;

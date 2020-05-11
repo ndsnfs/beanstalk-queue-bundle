@@ -1,7 +1,7 @@
 <?php
-namespace App\Bundle\BeanstalkBundle;
+namespace Symfony\BeanstalkBundle;
 
-use App\Bundle\BeanstalkBundle\Events\JobNotDoneEvent;
+use Symfony\BeanstalkBundle\Events\JobNotDoneEvent;
 
 interface IErrorListener
 {
